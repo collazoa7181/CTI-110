@@ -27,8 +27,6 @@ food = int(input("How much will you spend on food? "))
 
 
 total_expenses = gas + accomodation + food
-remaining_budget = budget - total_expenses
-
 remaining_balance = budget - total_expenses
 
 #Display results
@@ -53,5 +51,6 @@ print("Remaining Balance: ",remaining_balance)
 # The program will calculate total expenses by adding gas, accommodation, and food
 # The program will subtract total expenses from budget to get remaining balance
 # The end result is that the program will display travel destination, initial budget, total expenses, and remaining balance
+
 
 
